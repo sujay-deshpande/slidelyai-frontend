@@ -1,9 +1,7 @@
 ﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
 Partial Class MainForm
     Inherits System.Windows.Forms.Form
-
     Private components As System.ComponentModel.IContainer
-
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.BtnViewSubmissions = New System.Windows.Forms.Button()
@@ -31,9 +29,7 @@ Partial Class MainForm
         Me.BtnSearchSubmissions.TabIndex = 2
         Me.BtnSearchSubmissions.Text = "Search (CTRL+S)"
         Me.BtnSearchSubmissions.UseVisualStyleBackColor = True
-        '
-        'MainForm
-        '
+      
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 261)
@@ -47,8 +43,9 @@ Partial Class MainForm
     End Sub
 
     Friend WithEvents BtnViewSubmissions As System.Windows.Forms.Button
+      Friend WithEvents BtnSearchSubmissions As System.Windows.Forms.Button
     Friend WithEvents BtnCreateSubmission As System.Windows.Forms.Button
-    Friend WithEvents BtnSearchSubmissions As System.Windows.Forms.Button
+  
 
 
 End Class
